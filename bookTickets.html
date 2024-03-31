@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>       
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container-fluid seats pt-4">
+        <h1 class="dancing-font text-center" style="font-weight: 900;">Please Select The Seats</h1>
+        <div class="row">
+            <div class="col-12 dancing-font py-5">
+                <h2 class="dancing-font pb-5 text-center">PREMIUM-Rs. 270.00</h2>
+                
+                <!-- Row 1 -->
+                <ul class="list-group list-group-horizontal justify-content-center pb-5 align-items-center">
+                    <li>M</li>
+                    <li><button class="pre" onclick="addSeat('pre', 0, 'M')">1</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 1, 'M')">2</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 2, 'M')">3</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 3, 'M')">4</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 4, 'M')">5</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 5, 'M')">6</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 6, 'M')">7</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 7, 'M')">8</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 8, 'M')">9</button></li>
+
+                    <li><button class="pre" onclick="addSeat('pre', 9, 'M')">10</button></li>
+
+                    <li class="makeDist"><button class="pre" onclick="addSeat('pre', 10, 'M')">11</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 11, 'M')">12</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 12, 'M')">13</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 13, 'M')">14</button></li>
+                </ul>
+
+                <!-- Row 2 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center">
+                    <li>L</li>
+                    <li><button class="pre" onclick="addSeat('pre', 14, 'M')">1</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 15, 'M')">2</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 16, 'M')">3</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 17, 'M')">4</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 18, 'M')">5</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 19, 'M')">6</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 20, 'M')">7</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 21, 'M')">8</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 22, 'M')">9</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 23, 'M')">10</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 24, 'M')">11</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 25, 'M')">12</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 26, 'M')">13</button></li>
+                    <li class="makeDist"><button class="pre" onclick="addSeat('pre', 27, 'M')">14</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 28, 'M')">15</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 29, 'M')">16</button></li>
+                    <li><button class="pre" onclick="addSeat('pre', 30, 'M')">17</button></li>
+                </ul>
+            </div>
+
+            <div class="col-12 dancing-font py-5">
+                <h2 class="dancing-font pb-5 text-center">EXCLUSIVE-Rs. 250.00</h2>
+                
+                <!-- Row 1 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center pb-5">
+                    <li>K</li>
+                    <li><button class="ex" onclick="addSeat('ex', 0, 'K')">1</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 1, 'K')">2</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 2, 'K')">3</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 3, 'K')">4</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 4, 'K')">5</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 5, 'K')">6</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 6, 'K')">7</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 7, 'K')">8</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 8, 'K')">9</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 9, 'K')">10</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 10, 'K')">11</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 11, 'K')">12</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 12, 'K')">13</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 13, 'K')">14</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 14, 'K')">15</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 15, 'K')">16</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 16, 'K')">17</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 17, 'K')">18</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 18, 'K')">19</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 19, 'K')">20</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 20, 'K')">21</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 21, 'K')">22</button></li>
+                </ul>
+
+                <!-- Row 2 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center pb-5">
+                    <li>J</li>
+                    <li><button class="ex" onclick="addSeat('ex', 22, 'K')">1</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 23, 'K')">2</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 24, 'K')">3</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 25, 'K')">4</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 26, 'K')">5</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 27, 'K')">6</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 28, 'K')">7</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 29, 'K')">8</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 30, 'K')">9</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 31, 'K')">10</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 32, 'K')">11</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 33, 'K')">12</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 34, 'K')">13</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 35, 'K')">14</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 36, 'K')">15</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 37, 'K')">16</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 38, 'K')">17</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 39, 'K')">18</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 40, 'K')">19</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 41, 'K')">20</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 42, 'K')">21</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 43, 'K')">22</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 44, 'K')">23</button></li>
+                </ul>
+
+                <!-- Row 3 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center pb-5">
+                    <li>H</li>
+                    <li><button class="ex" onclick="addSeat('ex', 45, 'K')">1</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 46, 'K')">2</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 47, 'K')">3</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 48, 'K')">4</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 49, 'K')">5</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 50, 'K')">6</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 51, 'K')">7</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 52, 'K')">8</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 53, 'K')">9</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 54, 'K')">10</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 55, 'K')">11</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 56, 'K')">12</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 57, 'K')">13</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 58, 'K')">14</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 59, 'K')">15</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 60, 'K')">16</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 61, 'K')">17</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 62, 'K')">18</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 63, 'K')">19</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 64, 'K')">20</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 65, 'K')">21</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 66, 'K')">22</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 67, 'K')">23</button></li>
+                </ul>
+
+                <!-- Row 4 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center pb-5">
+                    <li>G</li>
+                    <li><button class="ex" onclick="addSeat('ex', 68, 'K')">1</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 69, 'K')">2</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 70, 'K')">3</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 71, 'K')">4</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 72, 'K')">5</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 73, 'K')">6</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 74, 'K')">7</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 75, 'K')">8</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 76, 'K')">9</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 77, 'K')">10</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 78, 'K')">11</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 79, 'K')">12</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 80, 'K')">13</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 81, 'K')">14</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 82, 'K')">15</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 83, 'K')">16</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 84, 'K')">17</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 85, 'K')">18</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 86, 'K')">19</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 87, 'K')">20</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 88, 'K')">21</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 89, 'K')">22</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 90, 'K')">23</button></li>
+                </ul>
+
+                <!-- Row 5 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center">
+                    <li>F</li>
+                    <li><button class="ex" onclick="addSeat('ex', 91, 'K')">1</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 92, 'K')">2</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 93, 'K')">3</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 94, 'K')">4</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 95, 'K')">5</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 96, 'K')">6</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 97, 'K')">7</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 98, 'K')">8</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 99, 'K')">9</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 100, 'K')">10</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 101, 'K')">11</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 102, 'K')">12</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 103, 'K')">13</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 104, 'K')">14</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 105, 'K')">15</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 106, 'K')">16</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 107, 'K')">17</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 108, 'K')">18</button></li>
+                    <li class="makeDist"><button class="ex" onclick="addSeat('ex', 109, 'K')">19</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 110, 'K')">20</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 111, 'K')">21</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 112, 'K')">22</button></li>
+                    <li><button class="ex" onclick="addSeat('ex', 113, 'K')">23</button></li>
+                </ul>
+            </div>
+
+            <div class="col-12 dancing-font py-5">
+                <h2 class="dancing-font pb-5 text-center">NORMAL-Rs. 230.00</h2>
+
+                <!-- Row 1 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center pb-5">
+                    <li>E</li>
+                    <li><button class="nor" onclick="addSeat('nor', 0, 'E')">1</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 1, 'E')">2</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 2, 'E')">3</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 3, 'E')">4</button></li>
+                    <li class="makeDist"><button class="nor" onclick="addSeat('nor', 4, 'E')">5</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 5, 'E')">6</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 6, 'E')">7</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 7, 'E')">8</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 8, 'E')">9</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 9, 'E')">10</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 10, 'E')">11</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 11, 'E')">12</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 12, 'E')">13</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 13, 'E')">14</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 14, 'E')">15</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 15, 'E')">16</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 16, 'E')">17</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 17, 'E')">18</button></li>
+                    <li class="makeDist"><button class="nor" onclick="addSeat('nor', 18, 'E')">19</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 19, 'E')">20</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 20, 'E')">21</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 21, 'E')">22</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 22, 'E')">23</button></li>
+                </ul>
+
+                <!-- Row 2 -->
+                <ul class="list-group list-group-horizontal justify-content-center align-items-center pb-5">
+                    <li>D</li>
+                    <li><button class="nor" onclick="addSeat('nor', 23, 'E')">1</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 24, 'E')">2</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 25, 'E')">3</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 26, 'E')">4</button></li>
+                    <li class="makeDist"><button class="nor" onclick="addSeat('nor', 27, 'E')">5</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 28, 'E')">6</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 29, 'E')">7</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 30, 'E')">8</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 31, 'E')">9</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 32, 'E')">10</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 33, 'E')">11</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 34, 'E')">12</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 35, 'E')">13</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 36, 'E')">14</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 37, 'E')">15</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 38, 'E')">16</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 39, 'E')">17</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 40, 'E')">18</button></li>
+                    <li class="makeDist"><button class="nor" onclick="addSeat('nor', 41, 'E')">19</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 42, 'E')">20</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 43, 'E')">21</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 44, 'E')">22</button></li>
+                    <li><button class="nor" onclick="addSeat('nor', 45, 'E')">23</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid showData dancing-font py-5">
+        <div class="row justify-content-around">
+            <div class="col-md-4 text-center pb-md-0 pb-3">
+                PREMIUM SEATS : <span id="premiumSeat">0</span>
+            </div>
+            <div class="col-md-4 text-center pb-md-0 pb-3">
+                EXCLUSIVE SEATS : <span id="exclusiveSeat">0</span>
+            </div>
+            <div class="col-md-4 text-center">
+                NORMAL SEATS : <span id="normalSeat">0</span>
+            </div>
+        </div>
+        <div class="row pt-5 justify-content-around">
+            <div class="col-md-3 text-center pb-3">AVAILABLE :<span class="mx-3" style="border : 2px solid rgb(102, 0, 128); padding: 0px 15px; border-radius: 20px;">x</span></div>
+            <div class="col-md-3 text-center">BOOKED :<span class="mx-3" style="border : 2px solid rgb(102, 0, 128); padding: 0px 15px; border-radius: 20px; background-color: rgb(102, 0, 128); color : white;">x</span></div>
+        </div>
+        <div class="row justify-content-center pt-5">
+            <div class="col-5 text-center">
+                <button style="border : none;" onclick="generateAmount()">Total Amount</button> : <span id="totalAmt">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
